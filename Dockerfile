@@ -1,4 +1,4 @@
-FROM library/nodejs:8
+FROM library/node:8
 
 RUN apt-get update && \
     apt-get install -y \
